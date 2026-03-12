@@ -18,10 +18,12 @@ pip install tensorboardX
 pip install pandas
 pip install flashlight-text
 
+git clone https://github.com/kpu/kenlm
 cd kenlm
 pip install .
 cd ..
 
+git clone https://github.com/flashlight/sequence.git
 cd sequence 
 pip install .
 cd ..
