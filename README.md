@@ -113,14 +113,6 @@ We also modularize all the SSL models into a standalone [PyPi package](https://p
 pip install s3prl
 ```
 
-or use 
-
-```sh
-./init.sh
-```
-
-and it will install all compatibles packages for all downstreams tasks. You just need to have a virtual environment like **venv** or **conda**.
-In our version we use **python3.10**.
 2. Use it to extract representations for your own audio:
 
 ```python

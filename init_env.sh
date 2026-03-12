@@ -2,7 +2,7 @@
 
 pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cu128
 
-cd s3prl
+# Install s3prl
 pip install .
 cd ..
 
@@ -14,9 +14,14 @@ pip install huggingface-hub==0.34.3
 pip uninstall transformers
 pip install transformers==4.52.4
 
-pip install tensorboardX
-pip install pandas
-pip install flashlight-text
+pip install tensorboardX==2.6.4
+pip install pandas==2.3.3
+pip install flashlight-text==0.0.7
+pip install editdistance==0.8.1
+pip install joblib==1.5.3
+pip install catalyst==20.8.2
+pip install librosa==0.11.0
+pip install sox==1.5.0
 
 git clone https://github.com/kpu/kenlm
 cd kenlm
