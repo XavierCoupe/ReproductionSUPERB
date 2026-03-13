@@ -30,11 +30,18 @@ You don't have to install any libraries, you just have to install corpora and up
 ### Limit
 
 The following tasks may not work :
+
     * QbE
+    
     * SD
+    
     * SS
+    
     * SE
+    
     * VC
+    
     * ST
+    
     * OOD-ASR
 
