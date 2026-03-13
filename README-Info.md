@@ -32,7 +32,7 @@ and the rest should work.
 
 For each task, you can use the following instruction at :
 
-**s3prl/downstream/README.md**
+[**downstream/README.md**](./s3prl/downstream/README.md)
 
 You don't have to install any libraries, you just have to install corpora and update path into the .yaml provide.
 
