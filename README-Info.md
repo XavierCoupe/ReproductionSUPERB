@@ -36,11 +36,12 @@ For each task, you can use the following instruction at :
 
 You don't have to install any libraries, you just have to install corpora and update path into the .yaml provide.
 
+
+For SD task, you need to do prepare data step, after environment initialisation, LibriMix git is already into the project. 
 ### Limit
 
 The following tasks may not work :
 * QbE
-* SD
 * SS
 * SE
 * VC

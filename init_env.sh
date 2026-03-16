@@ -22,6 +22,7 @@ pip install joblib==1.5.3
 pip install catalyst==20.8.2
 pip install librosa==0.11.0
 pip install sox==1.5.0
+pip install h5py==3.16.0
 
 git clone https://github.com/kpu/kenlm
 cd kenlm
@@ -32,3 +33,5 @@ git clone https://github.com/flashlight/sequence.git
 cd sequence 
 pip install .
 cd ..
+
+git clone https://github.com/s3prl/LibriMix.git
