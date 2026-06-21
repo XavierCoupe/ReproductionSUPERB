@@ -10,6 +10,7 @@ from s3prl.upstream.data2vec.hubconf import *
 from s3prl.upstream.decoar2.hubconf import *
 from s3prl.upstream.decoar.hubconf import *
 from s3prl.upstream.decoar_layers.hubconf import *
+from s3prl.upstream.dicehubert.hubconf import *
 from s3prl.upstream.distiller.hubconf import *
 from s3prl.upstream.espnet_hubert.hubconf import *
 from s3prl.upstream.example.hubconf import *

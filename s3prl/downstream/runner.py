@@ -108,6 +108,7 @@ class Runner():
             assert hasattr(model, interface), interface
 
         self._load_weight(model, name)
+        
 
         if is_initialized() and trainable and any((p.requires_grad for p in model.parameters())):
             model = DDP(model, device_ids=[self.args.local_rank], find_unused_parameters=True)
@@ -139,7 +140,9 @@ class Runner():
             ckpt_path = os.path.join(filepath, self.args.upstream_model_name)
         else:
             Upstream = getattr(hub, self.args.upstream)
+            
             ckpt_path = self.args.upstream_ckpt
+
         upstream_refresh = self.args.upstream_refresh
 
         if is_initialized() and get_rank() > 0:
